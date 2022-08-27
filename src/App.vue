@@ -5,8 +5,19 @@ import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <Header/>
-
+  <main>
+    <header>
+      <Header/>
+    </header>
+    <body>
+      <Body/>
+    </body>
+    <footer>
+      <Footer/>
+    </footer>
+  </main>
+  
+  
   
 </template>
 
